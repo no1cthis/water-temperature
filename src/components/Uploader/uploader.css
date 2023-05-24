@@ -1,0 +1,25 @@
+.uploader{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+    background-color: #242424;
+    padding: 5px 15px;
+    transition: 0.5s;
+    
+    cursor: pointer;
+}
+.uploader:hover{
+    background-color: #2e2e2e;
+}
+.center{
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.dontDisplay{
+    visibility: hidden;
+}
