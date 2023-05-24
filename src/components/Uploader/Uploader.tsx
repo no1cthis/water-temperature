@@ -1,4 +1,4 @@
-import { FC, useCallback, useRef } from "react";
+import { FC, useCallback } from "react";
 import uploaderService from "../../service/uploaderService";
 import "./uploader.css";
 
